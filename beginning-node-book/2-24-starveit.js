@@ -26,7 +26,10 @@ fibonacci(44);
  * e isso só acontece 14s após. Enquanto isso, o event-loop fica bloqueado (o que é chamado de `starvation`),
  * e deve ser evitado no NodeJs.
  * 
- * A linha 11 só é executada 14 segundos após a linha 16.
+ * A linha 11 só é executada 14 segundos após a linha 16. Sugiro que abra o monitor de processos/recursos 
+ * do seu computador para ver o que acontece com a CPU durante a execução deste código. No meu computador, 
+ * por ser relativamente velho, dá até para ouvir o cooler da CPU indo a máximo enquando dura a execução dos
+ * cálculos deste código.
  * 
  * Esta é a razão de ser necessário aprender a trabalhar com requisições assíncronas, 
  * isto é, com callbacks, promises e async/await.
