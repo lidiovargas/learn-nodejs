@@ -12,6 +12,20 @@ setTimeout(function(){
   console.timeEnd('timer');
 },1000);
 
+/** NOTA AO INICIANTE:
+ * Uma coisa muito peculiar do javascript, é que você poderia declarar a função no início do código,
+ * como a maioria das linguagens, e depois só chamá-la:
+ * setTimeout(funcaoQueDeclareiAntes, 1000)
+ * 
+ * Mas o javascript permite também a sintaxe de declaração da função direto no argumento, como 
+ * se função anônima, do jeito que está na linha 11-13 acima. Assim o callback é tudo o que começa
+ * após o parêntese na linha 11, até a chave que fecha antes da vírgula na linha 13.
+ * E nesta sintaxe, a função não precisa ser declarada antes (ganha limpeza de código?). 
+ * 
+ * A maioria dos exemplos encontrados, possivelmente fará uso das funções anonimas direto no parâmetro da função.
+ */
+
+
 /** A cada vez que é rodada a aplicação (node 2-22-timeit.js) 
  * o sistema retorna 1002, 1003, 1002, 1004, mas nunca 1000.
  * Isso acontece devido ao funcionamento do 'Event Loop' do NodeJs.
