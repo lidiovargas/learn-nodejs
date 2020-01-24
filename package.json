@@ -1,0 +1,22 @@
+{
+  "name": "learn-nodejs",
+  "version": "1.0.0",
+  "description": "Learn NodeJS Resources",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidiovargas/learn-nodejs.git"
+  },
+  "author": "Lidio Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lidiovargas/learn-nodejs/issues"
+  },
+  "homepage": "https://github.com/lidiovargas/learn-nodejs#readme",
+  "dependencies": {
+    "mongodb": "^3.5.2"
+  }
+}
