@@ -1,4 +1,10 @@
-Após ter instalado o Cygwin e o Node Js, entre nos settings do vscode e 
+Após ter instalado o Cygwin e o Node Js, entre nos settings do vscode 
+
+- Ctrl+Shift+P, 
+- Digita settings, 
+- e entra "Preferences: Open Settings (JSON)"
+
+Já com os settings abertos, atualize o arquivo:
 
 ```javascript
 {
